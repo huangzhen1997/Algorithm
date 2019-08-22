@@ -2,7 +2,7 @@ public class QuickSort {
 
     public static void main(String[] args){
         
-        int[] array = {2,4,1,6,3,7,9,0};
+        int[] array = {2,4,1,6,41234,123,10,6,3,7,9,0};
         
         quicksort(array,0,array.length-1);
         String output = outputformat(array);
