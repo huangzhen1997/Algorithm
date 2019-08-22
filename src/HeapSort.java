@@ -1,6 +1,5 @@
-import java.util.*;
-
 public class HeapSort {
+
     public static void main(String[] args){
         int[] array = {3,2,5,1,7,6,10,4};
         heapsort(array);
@@ -15,20 +14,6 @@ public class HeapSort {
         int right=root*2+2;
         int largest = root;
 
-//        if (left<size && array[left]>array[root]&&array[left]>=array[right]){
-//
-//            int temp=array[left];
-//            array[left]=array[root];
-//            array[root]=temp;
-//            heapify(array,size,left);
-//        }
-//
-//        else if(right<size &&array[right]>array[root]&&array[right]>=array[left]){
-//            int temp=array[right];
-//            array[right]=array[root];
-//            array[root]=temp;
-//            heapify(array,size,right);
-//        }
         if (left<size&&array[left]>array[largest]){
             largest=left;
         }
