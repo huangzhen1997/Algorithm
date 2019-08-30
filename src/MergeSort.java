@@ -2,7 +2,7 @@ public class MergeSort{
 
     public static void main(String[] args){
 
-        int[] array={2,8,9,10,4,5,6,7};
+        int[] array={22,24,45,20,56,65,};
         //mergeSort(array,0,7);
         mergeSort(array,0,7);
         String output= outputformat(array);
