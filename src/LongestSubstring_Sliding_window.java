@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubstring {
+public class LongestSubstring_Sliding_window {
 
 
     public static int lengthOfLongestSubstring(String s){
@@ -14,19 +14,15 @@ public class LongestSubstring {
 
             if( ! lookup.contains(s.charAt(j))){
 
-                lookup.add(s.charAt(j));
+                lookup.add(s.charAt(j++));
                 maxLength= Math.max(j-i,maxLength);
-                j++;
 
 
             }
 
             else{
-
                 lookup.remove(s.charAt(i++));
             }
-
-
 
 
         }
@@ -34,9 +30,6 @@ public class LongestSubstring {
         return maxLength;
 
     }
-
-
-
 
 
 

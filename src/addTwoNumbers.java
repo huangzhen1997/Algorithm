@@ -1,6 +1,5 @@
 public class addTwoNumbers {
 
-
     public static class ListNode {
 
        int val;

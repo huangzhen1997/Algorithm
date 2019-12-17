@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubstring {
+public class LongestSubstring_Brute_Force {
 
     public static void main(String[] args){
 
