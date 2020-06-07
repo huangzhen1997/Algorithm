@@ -4,7 +4,6 @@ import java.util.*;
 public class CombinationSum {
     public static void main(String args[]){
 
-
         List<List<Integer>> output = solve(new int[]{2,3,6,7}, 7);
         System.out.println(output);
     }
