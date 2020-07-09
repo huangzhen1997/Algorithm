@@ -55,10 +55,6 @@ public class QuickSort {
 
     }
 
-
-
-
-
     public static String outputformat(int[] array){
         String output = "[";
         for(int i=0;i<array.length;i++){
