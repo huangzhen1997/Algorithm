@@ -1,1 +1,1 @@
-# Algorithm practices + Leetcode 
+# coding practice + parallel programming
