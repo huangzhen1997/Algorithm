@@ -1,3 +1,5 @@
+//Leetcode #283
+
 public class MoveZeros {
     public static void main(String[] args){
         int[] input = new int[]{0,1,0,3,12};
@@ -32,5 +34,17 @@ public class MoveZeros {
         for(int i = countingNonZero;i<nums.length;i++){
             nums[i]=0;
         }
+//        int left = 0, right = nums.length-1;
+//        while(left<right){
+//
+//            while(nums[right]==0){
+//                right--;
+//            }
+//
+//            if(nums[left]==0){
+//
+//            }
+//        }
+
     }
 }
